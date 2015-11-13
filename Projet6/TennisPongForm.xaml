@@ -1,0 +1,101 @@
+﻿<Window x:Class="Projet6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TennisPong" Icon="/Projet6;component/Resources/tennispong.ico" Closing="Window_Closing" ResizeMode="CanMinimize" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="464" d:DesignWidth="523" SizeToContent="WidthAndHeight" Background="Black" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Menu Name="menu1" Margin="0,0,0,406">
+            <MenuItem Header="Jeu">
+                <MenuItem Header="Nouvelle partie" Click="nouvellePartieMenuItem_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Projet6;component/Resources/1302452088_001_59.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Terminer la partie" Click="terminerLaPartieMenuItem_Click" IsEnabled="False">
+                    <MenuItem.Icon>
+                        <Image Source="/Projet6;component/Resources/1302451902_001_05.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Quitter" Click="quitterMenuItem_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Projet6;component/Resources/1302452240_Log%20Out.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Joueurs">
+                <MenuItem Header="Joueur 1">
+                    <MenuItem.Icon>
+                        <Image Source="/Projet6;component/Resources/1303658006_Tennis.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Clavier" IsCheckable="True" Checked="clavierMenuItem_Checked" Unchecked="clavierMenuItem_Unchecked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452351_Keyboard.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Souris" IsCheckable="True" Checked="sourisMenuItem_Checked" Unchecked="sourisMenuItem_Unchecked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452434_input-mouse.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Manette" IsCheckable="True" Unchecked="manetteMenuItem_Unchecked" Checked="manetteMenuItem_Checked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452547_joystick.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Intelligence Artificielle" IsCheckable="True" Checked="intelligenceArtificielleMenuItem_Checked" Unchecked="intelligenceArtificielleMenuItem_Unchecked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452891_gnome-dev-computer.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Joueur 2">
+                    <MenuItem.Icon>
+                        <Image Source="/Projet6;component/Resources/1303658006_Tennis.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Clavier" IsCheckable="True" Unchecked="clavierMenuItem1_Unchecked" Checked="clavierMenuItem1_Checked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452351_Keyboard.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Souris" IsCheckable="True" Unchecked="sourisMenuItem1_Unchecked" Checked="sourisMenuItem1_Checked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452434_input-mouse.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Manette" IsCheckable="True" Checked="manetteMenuItem1_Checked" Unchecked="manetteMenuItem1_Unchecked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452547_joystick.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Intelligence Artificielle" IsCheckable="True" Unchecked="intelligenceArtificielleMenuItem1_Unchecked" Checked="intelligenceArtificielleMenuItem1_Checked">
+                        <MenuItem.Icon>
+                            <Image Source="/Projet6;component/Resources/1302452891_gnome-dev-computer.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Difficulté" IsEnabled="False">
+                <MenuItem Header="Facile" IsCheckable="True" Checked="facileMenuItem_Checked" />
+                <MenuItem Header="Moyen" IsCheckable="True" Checked="moyenMenuItem_Checked" />
+                <MenuItem Header="Difficile" IsCheckable="True" Checked="difficileMenuItem_Checked" />
+            </MenuItem>
+            <MenuItem Header="Score">
+                <MenuItem Header="Test" Click="testMenuItem_Click" />
+            </MenuItem>
+            <MenuItem Header="Options">
+                <MenuItem Header="Vibrations Manette 1" IsCheckable="True" Checked="vibrationsManette1MenuItem_Checked" Unchecked="vibrationsManette1MenuItem_Unchecked" IsEnabled="False" />
+                <MenuItem Header="Vibrations Manette 2" IsCheckable="True" Unchecked="vibrationsManette2MenuItem_Unchecked" Checked="vibrationsManette2MenuItem_Checked" IsEnabled="False" />
+                <Separator />
+                <MenuItem Header="Sons" IsCheckable="True" Checked="sonsMenuItem_Checked" Unchecked="sonsMenuItem_Unchecked" />
+            </MenuItem>
+            <MenuItem Header="?">
+                <MenuItem Header="A propos de" Click="aProposDeMenuItem_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Projet6;component/Resources/1302452967_gnome-stock-about.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Canvas Name="canvas1" VerticalAlignment="Top" Width="500" Margin="0,25,0,0" Height="400" />
+    </Grid>
+</Window>

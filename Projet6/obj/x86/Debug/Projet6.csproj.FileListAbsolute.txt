@@ -1,0 +1,35 @@
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\bin\Debug\Projet6.exe
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\bin\Debug\Projet6.pdb
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\MainWindow.baml
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\MainWindow.g.cs
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\App.g.cs
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\Projet6_MarkupCompile.cache
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\Projet6.g.resources
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\Projet6.Properties.Resources.resources
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\Projet6.exe
+C:\Users\qlecler\AppData\Local\Temporary Projects\Projet6\obj\x86\Debug\Projet6.pdb
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\Projet6.exe
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\Projet6.pdb
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\bin\Debug\Projet6.exe
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\bin\Debug\Projet6.pdb
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\App.g.cs
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\Projet6_MarkupCompile.cache
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\Projet6.g.resources
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\Projet6.Properties.Resources.resources
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\TestForm.baml
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\TestForm.g.cs
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\WinForm.baml
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\WinForm.g.cs
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\AboutForm.baml
+C:\Users\qlecler\documents\visual studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\AboutForm.g.cs
+C:\Users\qlecler\Documents\Visual Studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\TennisPongForm.baml
+C:\Users\qlecler\Documents\Visual Studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\TennisPongForm.g.cs
+C:\Users\qlecler\Documents\Visual Studio 2010\Projects\Projet6\Projet6\bin\Debug\Resources\4359__NoiseCollector__PongBlipF4.wav
+C:\Users\qlecler\Documents\Visual Studio 2010\Projects\Projet6\Projet6\bin\Debug\Resources\4360__NoiseCollector__ponblipG_5.wav
+C:\Users\qlecler\Documents\Visual Studio 2010\Projects\Projet6\Projet6\obj\x86\Debug\Projet6_Content.g.cs

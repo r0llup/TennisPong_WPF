@@ -1,0 +1,35 @@
+﻿<Window x:Class="Projet6.TestForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Test" Height="300" Width="463" Icon="/Projet6;component/Resources/tennispong.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <GroupBox Header="Joueur 1" Height="261" Name="groupBox1" VerticalAlignment="Top" Margin="0,0,234,0"></GroupBox>
+        <GroupBox Header="Joueur 2" Height="261" Name="groupBox2" VerticalAlignment="Top" HorizontalAlignment="Right" Width="228"></GroupBox>
+        <Grid Name="grid1" Width="200" Margin="7,12,234,0">
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="74,13,0,0" Name="scoreJoueur1ToolBox" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+            <Label Content="Score :" Height="28" Name="label1" Margin="0,11,143,210" />
+            <Label Height="28" HorizontalAlignment="Left" Margin="0,47,0,0" Name="label2" VerticalAlignment="Top" Content="Jeu :" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="74,47,0,0" Name="jeuJoueur1ToolBox" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+            <Label Content="Set :" Height="28" HorizontalAlignment="Left" Margin="0,81,0,0" Name="label3" VerticalAlignment="Top" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="74,81,0,0" Name="setJoueur1ToolBox" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+            <Label Content="Match :" Height="28" HorizontalAlignment="Left" Margin="0,115,0,0" Name="label4" VerticalAlignment="Top" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="74,117,0,0" Name="matchJoueur1ToolBox" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+            <Button Content="Gagné !" Height="23" HorizontalAlignment="Left" Margin="56,183,0,0" Name="gagneJoueur1Button" VerticalAlignment="Top" Width="75" Click="gagneJoueur1Button_Click" />
+        </Grid>
+        <Grid Height="244" Name="grid2" Width="221" Margin="220,13,0,4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*" />
+                <ColumnDefinition Width="221*" />
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" IsEnabled="False" Margin="89,12,0,0" Name="scoreJoueur2ToolBox" VerticalAlignment="Top" Width="120" />
+            <Label Content="Score :" Height="28" Margin="10,10,154,206" Name="label5" Grid.Column="1" />
+            <Label Content="Jeu :" Height="28" HorizontalAlignment="Left" Margin="10,46,0,0" Name="label6" VerticalAlignment="Top" Grid.Column="1" />
+            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" IsEnabled="False" Margin="89,46,0,0" Name="jeuJoueur2ToolBox" VerticalAlignment="Top" Width="120" />
+            <Label Content="Set :" Height="28" HorizontalAlignment="Left" Margin="10,80,0,0" Name="label7" VerticalAlignment="Top" Grid.Column="1" />
+            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" IsEnabled="False" Margin="89,80,0,0" Name="setJoueur2ToolBox" VerticalAlignment="Top" Width="120" />
+            <Label Content="Match :" Height="28" HorizontalAlignment="Left" Margin="10,114,0,0" Name="label8" VerticalAlignment="Top" Width="48" Grid.Column="1" />
+            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" IsEnabled="False" Margin="89,116,0,0" Name="matchJoueur2ToolBox" VerticalAlignment="Top" Width="120" />
+            <Button Content="Gagné !" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="71,182,0,0" Name="gagneJoueur2Button" VerticalAlignment="Top" Width="75" Click="gagneJoueur2Button_Click" />
+        </Grid>
+    </Grid>
+</Window>

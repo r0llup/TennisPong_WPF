@@ -1,0 +1,9 @@
+﻿<Window x:Class="Projet6.WinForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gagné !" Height="159" Width="300" Icon="/Projet6;component/Resources/tennispong.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterOwner">
+    <Grid Height="124">
+        <Label Content="Le joueur 1 a gagné !" Height="31" HorizontalAlignment="Left" Margin="54,31,0,0" Name="label1" VerticalAlignment="Top" Foreground="OrangeRed" FontSize="16" FontWeight="Bold" />
+        <Button Content="Ok" Height="23" HorizontalAlignment="Left" Margin="102,89,0,0" Name="okButton" VerticalAlignment="Top" Width="75" Click="okButton_Click" />
+    </Grid>
+</Window>

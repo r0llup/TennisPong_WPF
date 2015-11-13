@@ -1,0 +1,30 @@
+﻿<Window x:Class="Projet6.AboutForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="A propos de" Height="331" Width="476" Icon="/Projet6;component/Resources/1302452967_gnome-stock-about.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Height="300">
+        <Label Content="Lecler Quentin" Height="28" HorizontalAlignment="Left" Margin="195,12,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Date de création :" Height="28" HorizontalAlignment="Left" Margin="12,46,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="27/03/2011" Height="28" HorizontalAlignment="Left" Margin="195,46,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="Date de dernière modification :" Height="28" HorizontalAlignment="Left" Margin="12,80,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="24/04/2011" Height="28" HorizontalAlignment="Left" Margin="195,80,0,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="Icônes :" Height="28" HorizontalAlignment="Left" Margin="12,114,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="34aL volume 3.2 SE" Height="28" HorizontalAlignment="Left" Margin="195,114,0,0" Name="label8" VerticalAlignment="Top" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="-246,277,0,0" Name="label9" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="330,119,0,0" Name="textBlock1" Text="" VerticalAlignment="Top">
+            <Hyperlink NavigateUri="http://www.everaldo.com" Click="linkLabel1_LinkClicked">Crystal Projet Icons</Hyperlink>
+        </TextBlock>
+        <Label Content="Human-O2" Height="28" HorizontalAlignment="Left" Margin="195,148,0,0" Name="label10" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="330,153,0,0" Name="textBlock2" Text="" VerticalAlignment="Top">
+            <Hyperlink NavigateUri="http://mattrich.deviantart.com/" Click="linkLabel3_LinkClicked">Picnic</Hyperlink>
+        </TextBlock>
+        <Label Content="Visual Pharm" Height="28" HorizontalAlignment="Left" Margin="195,182,0,0" Name="label11" VerticalAlignment="Top" />
+        <Label Content="Sons :" Height="28" HorizontalAlignment="Left" Margin="12,216,0,0" Name="label12" VerticalAlignment="Top" />
+        <Button Content="Ok" Height="23" HorizontalAlignment="Left" Margin="195,265,0,0" Name="okButton" VerticalAlignment="Top" Width="75" Click="okButton_Click" />
+        <Label Content="Auteur :" Name="label1" Margin="12,12,376,260" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="200,221,0,0" Name="textBlock3" Text="" VerticalAlignment="Top">
+            <Hyperlink NavigateUri="http://www.freesound.org/usersViewSingle.php?id=4948" Click="linkLabel2_LinkClicked">Pong softsynth</Hyperlink>
+        </TextBlock>
+        <Border BorderBrush="Silver" BorderThickness="1" Margin="12,10,12,46" Name="border1" CornerRadius="22.5" />
+    </Grid>
+</Window>
